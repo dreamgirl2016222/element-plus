@@ -40,15 +40,15 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const value = ref('')
+const value = ref('1')
 
 const options = [
   {
-    value: 'Option1',
+    value: '1',
     label: 'Option1',
   },
   {
-    value: 'Option2',
+    value: '2',
     label: 'Option2',
   },
   {
